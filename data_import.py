@@ -9,9 +9,10 @@ import pandas as pd
 import requests
 from pandas.io.json import json_normalize
 from pathlib import Path
+from config import API_KEY
 
 
-api_key = 'b8d9dc97-b4fd-44ec-8993-8e3f9f2cd901'
+api_key = API_KEY
 payload = {'api_key':api_key}
 account_id = '45576964'
 base_folder = Path('C:/Users/Ryan/dota2-classification')
